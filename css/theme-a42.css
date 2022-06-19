@@ -2797,7 +2797,7 @@ height:70%;
 		text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 
 }
-body:not(.inv-c) .a42-couv_subtitle, .date {
+body:not(.inv-c) .a42-couv_subtitle, body:not(.inv-c) .date {
 	text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 .a42-couv_title > *, .a42-couv_subtitle, .date , .logo > *  {
