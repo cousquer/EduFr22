@@ -2797,7 +2797,7 @@ height:70%;
 		text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 
 }
-.a42-couv_subtitle, .date {
+body:not(.inv-c) .a42-couv_subtitle, .date {
 	text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 .a42-couv_title > *, .a42-couv_subtitle, .date , .logo > *  {
@@ -3703,7 +3703,7 @@ span.a42-text-limit {
 .a42-block-maxi {
 	width: 100%;
 }
-.a42-couv_title-bg, .a42-color-c5.a42-item-block {
+body:not(.inv-c) .a42-couv_title-bg, body:not(.inv-c) .a42-color-c5.a42-item-block {
 	background-color: rgba(255,255,255,1);
 	width: 100%;
 	word-wrap: unset;
@@ -3711,9 +3711,9 @@ span.a42-text-limit {
 	font-size: 65%;
 	padding-bottom: 2.5rem;
 }
-.a42-item-block,
-.a42-item-block .a42-sub,
-.a42-item-block .a42-sup {
+body:not(.inv-c) .a42-item-block,
+body:not(.inv-c) .a42-item-block .a42-sub,
+body:not(.inv-c) .a42-item-block .a42-sup {
 	display: block;
 	text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
