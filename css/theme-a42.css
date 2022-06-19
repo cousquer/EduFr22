@@ -5614,11 +5614,13 @@ figcaption code {
 
 #navbar li {
 	border-top: 1px solid #A0B0BD;
+	background-color: #fff;
 }
 
 #navbar li button,
 #navbar li button .icon:before {
-	color: white;
+	color: inherit;
+	
 }
 
 /*.inv-c #navbar li button .icon:before{
