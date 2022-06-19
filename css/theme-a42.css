@@ -5618,7 +5618,7 @@ figcaption code {
 
 #navbar li button,
 #navbar li button .icon:before {
-	color: inherit;
+	color: white;
 }
 
 /*.inv-c #navbar li button .icon:before{
