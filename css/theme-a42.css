@@ -4668,12 +4668,12 @@ td {
 
 .slide-counter {
 	position: fixed;
-	background: #fff;
-	color: #0B1B34;
+	background: #0B1B34;
+	color: #fff;
 	padding: 5px;
 	right: 0;
 	bottom: 0;
-	z-index: 999; /* Note Marie : Ã  modifier plus intelligemment lors du refacto de la toolbar */
+	z-index: 2000; /* Note Christian : Ã  modifier plus intelligemment lors du refacto de la toolbar */
 }
 
 .high-c .slide-counter {
