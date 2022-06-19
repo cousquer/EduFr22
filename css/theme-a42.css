@@ -5600,8 +5600,9 @@ figcaption code {
 
 
 #cpt {
-	background: #A0B0BD;
+	background: #03345D;
 	color: #fff;
+	z-index: 1000;
 }
 
 .high-c #cpt {
