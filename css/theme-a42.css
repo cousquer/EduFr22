@@ -5938,15 +5938,6 @@ h5 {
 #navbar button:focus-visible,#navbar select:focus-visible, #summary-container #toc:focus-visible{
 	outline: 5px white dashed;
 }
-/* FIX */
-body {
-	min-height: 100vh;
-	/* mobile viewport bug fix */
-	min-height: -webkit-fill-available;
-  }
-  
-  html {
-	height: -webkit-fill-available;
-  }
+
   
   
