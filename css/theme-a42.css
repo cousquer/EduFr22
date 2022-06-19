@@ -5939,5 +5939,10 @@ h5 {
 	outline: 5px white dashed;
 }
 
+/* fix audio are not operable on desktop */
+audio, .toggle-gp-article {
+	position: relative;
+	z-index: 100000;
+}
   
   
