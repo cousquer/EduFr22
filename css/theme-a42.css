@@ -2591,6 +2591,7 @@ select {
 
 .custom-select::before {
 	background-color: #03345D ;
+	color: #fff;
 	width: 2em;
 	right: 0;
 	top: 0;
@@ -2599,12 +2600,13 @@ select {
 }
 
 .high-c  .custom-select::before {
-	background-color: #343643;
+	background-color: #03345D;
 	color: #fff;
 }
 
 .inv-c .custom-select::before {
 	background-color: #000080;
+
 }
 
 .custom-select::after {
@@ -2791,11 +2793,17 @@ margin: 0;
 padding: 1.5rem;
 width: 100%;
 height:70%;
-		position:absolute;
-		background-image: linear-gradient(#fff, #fff);
-		opacity: 0.6;
-		text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+		position:relative;
+		
+		background-color: #fff;
+		max-width: 740px;
+		/*text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;*/
 
+}
+
+body:not(.inv-c) .a42-couv_title {
+	color:#8F142D;
+	
 }
 body:not(.inv-c) .a42-couv_subtitle, body:not(.inv-c) .date {
 	text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
@@ -2803,13 +2811,13 @@ body:not(.inv-c) .a42-couv_subtitle, body:not(.inv-c) .date {
 .a42-couv_title > *, .a42-couv_subtitle, .date , .logo > *  {
 	opacity: 1 !important;
 	padding-left: 1rem;
-	padding-top: 2rem;
 	position: relative;
+
 }
 .logo  {
 	position: absolute;
 	left: 0;
-	top: 0.5rem;
+	top: 2.5rem;
 
 	display: inline-block;
 	background-color: #fff;
@@ -2961,7 +2969,7 @@ body:not(.inv-c) .a42-couv_subtitle, body:not(.inv-c) .date {
 }
 
 .a42-couv_subtitle {
-	font-size: 130%;
+	font-size: 230%;
 	font-weight: bold;
 }
 
@@ -3708,7 +3716,7 @@ body:not(.inv-c) .a42-couv_title-bg, body:not(.inv-c) .a42-color-c5.a42-item-blo
 	width: 100%;
 	word-wrap: unset;
 	text-shadow: white;
-	font-size: 65%;
+    font-size: 100%;
 	padding-bottom: 2.5rem;
 }
 body:not(.inv-c) .a42-item-block,
@@ -4688,7 +4696,7 @@ td {
 }
 .a42-couv h2,
 .a42-couv_title {
-	font-size: 300%;
+	font-size: 250%;
 }
 
 .a42-couv_title {
@@ -5632,9 +5640,11 @@ figcaption code {
 	margin-left: 1.9em;
 }
 
-#navbar .select-goto {
+#navbar, #navbar .select-goto {
 	min-width: 5em;
 	margin-left: 0;
+	background-color: #03345D;
+	color: #fff;
 }
 
 .is-closed .related {
@@ -5857,7 +5867,8 @@ tbody tr:first-child {
 }
 
 h1 {
-	font-size: 170%;
+	font-size: 200%;
+	margin: 0;
 }
 
 h2,
@@ -5931,6 +5942,10 @@ h5 {
 	transition-timing-function: ease;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+ #navbar select, .contrast-bg, #current, #total{
+	background-color: #03345D ;
+	color: #fff;
 }
 #prev:focus-visible,#next:focus-visible{
 	outline: 7px black dashed;

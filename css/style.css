@@ -1141,8 +1141,7 @@ a.btn {
 
 /* Page select */
 .select-goto option, #contrastSelect,#current,#total, #tocp.select-goto, select#tocP.select-goto {
-	color: #fff;
-	background-color: #03345D;
+
 }
 
 
@@ -1175,6 +1174,11 @@ a.btn {
 	font-weight: bold;
 	min-width: 3em;
 	text-align: center;
+	color: #fff;
+}
+#cpt {
+	color: #fff;
+	background-color: inherit;
 }
 
 .slide-counter-current:after {
@@ -1239,7 +1243,7 @@ a.btn {
 
 /** @subsection 6.1 TOOLS ELEMENTS **/
 .a42-page-c4a #Fgo, .a42-page-c4a #Fgo * {
-	background-color: #03345D !important;
+
 	color: #fff !important;
   }
 .tool-block-title {
