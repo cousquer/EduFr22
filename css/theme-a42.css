@@ -5943,7 +5943,7 @@ h5 {
 	margin-left: 5px;
 	margin-right: 5px;
 }
- #navbar select, .contrast-bg, #current, #total{
+ #navbar select, .contrast-bg, #current, #total, #Fgo > .contrast-bg{
 	background-color: #03345D ;
 	color: #fff;
 }
