@@ -1242,8 +1242,8 @@ a.btn {
 }
 
 /** @subsection 6.1 TOOLS ELEMENTS **/
-.a42-page-c4a #Fgo, .a42-page-c4a #Fgo * {
-
+.a42-page-c4a #Fgo, .a42-page-c4a #Fgo *, select#tocP {
+	background-color: #03345D ;
 	color: #fff !important;
   }
 .tool-block-title {
