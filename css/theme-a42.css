@@ -5960,5 +5960,9 @@ audio, .toggle-gp-article {
 	position: relative;
 	z-index: 100000;
 }
+
+#sommaire {
+	z-index: 100100;
+}
   
   
