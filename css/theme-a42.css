@@ -2805,8 +2805,8 @@ body:not(.inv-c) .a42-couv_title {
 	color:#8F142D;
 	
 }
-body:not(.inv-c) .a42-couv_subtitle, body:not(.inv-c) .date {
-
+body.inv-c #D1.slide {
+	background-image: none;
 }
 .a42-couv_title > *, .a42-couv_subtitle, .date , .logo > *  {
 	opacity: 1 !important;
