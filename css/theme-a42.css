@@ -4566,7 +4566,9 @@ body.a42-debug {
 body {
 	background: #fff;
 }
-
+.educause {
+	bottom: 4.5rem;
+}
 .small-only {
 	display: none;
 }
