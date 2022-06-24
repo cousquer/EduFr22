@@ -2566,7 +2566,7 @@ select {
 	appearance: none;
 	color: #000;
 	margin: 0;
-	background-color: #aa9f96;
+	/*background-color: #aa9f96;*/
 	color: inherit;
 }
 
@@ -5643,7 +5643,7 @@ figcaption code {
 	min-width: 5em;
 	margin-left: 0;
 	background-color: #03345D;
-	color: #fff;
+
 }
 
 .is-closed .related {
