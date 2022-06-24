@@ -2830,7 +2830,7 @@ body:not(.inv-c) .a42-couv_subtitle, body:not(.inv-c) .date {
 .educause {
 	position: absolute;
 	right: 0;
-	bottom: 4.5rem;
+	bottom: 1.5rem;
 	width: 15rem !important;
 	height: auto;
 	display: inline-block;
