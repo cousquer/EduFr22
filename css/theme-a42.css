@@ -5640,6 +5640,9 @@ figcaption code {
 	color: inherit;
 	
 }
+.high-c #navbar li button, .high-c #navbar li button .icon::before {
+	color: #343643;
+  }
 
 /*.inv-c #navbar li button .icon:before{
 			color:var(--inv-font);
